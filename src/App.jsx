@@ -84,7 +84,7 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-50 font-sans p-6 flex flex-col items-center">
       <header className="text-center my-10">
-        <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight">ToxiScan AI</h1>
+        <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight">ToxiScan</h1>
         <p className="text-slate-500 mt-2">Hybrid Multi-Output Safety Analysis</p>
       </header>
 
