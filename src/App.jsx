@@ -49,13 +49,13 @@ function App() {
         // Image OCR mode
         const formData = new FormData();
         formData.append('image', file);
-        response = await axios.post('https://fyp-toxiscan-backend.onrender.com/predict', formData, {
+        response = await axios.post('https://rumbling-diabetic-exchange.ngrok-free.dev/predict', formData, {
           headers: { 'Content-Type': 'multipart/form-data' },
         });
       } else {
         // Manual text mode
         response = await axios.post(
-          'https://fyp-toxiscan-backend.onrender.com/predict-text',
+          'https://rumbling-diabetic-exchange.ngrok-free.dev/predict-text',
           { ingredients: textInput },
           { headers: { 'Content-Type': 'application/json' } }
         );
